@@ -1,4 +1,4 @@
-.wrapper {
+.mw-wrapper {
     position: relative;
     min-width: 480px;
     min-height: 320px;
@@ -7,7 +7,7 @@
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
 
-.desk {
+.mw-desk {
     position: absolute;
     width: 100%;
     z-index: 9;
@@ -16,11 +16,11 @@
     text-align: center;
 }
 
-.desk span {
+.mw-desk span {
     font-weight: 600;
 }
 
-.exit-ico {
+.mw-exit-ico {
     cursor: pointer;
     right: 0;
     position: absolute;
