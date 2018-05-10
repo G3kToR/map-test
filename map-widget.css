@@ -1,0 +1,27 @@
+.wrapper {
+    position: relative;
+    min-width: 480px;
+    min-height: 320px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+.desk {
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.desk span {
+    font-weight: 600;
+}
+
+.exit-ico {
+    cursor: pointer;
+    right: 0;
+    position: absolute;
+}
