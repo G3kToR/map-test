@@ -11,7 +11,52 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="map-widget"></div>
+    <div
+            id="test"
+            class="map-widget"
+            data-width="700"
+            data-height="700"
+            data-placemarks='[{"coords":["55.768715","37.510193"],"desk":{"name":"Тест название1","address":"г. Москва, ул. Московская, д.8","text":"Текстовое описание","phone":"8 900 555 35 35","site":"www.test.ru"}},{"coords":["55.728373","39.669054"],"desk":{"name":"Тест название2","address":"г. Москва, ул. Московская, д.248","text":"Текстовое описание2","phone":"8 900 555 35 36","site":"www.test2.ru"}}]'>
+    </div>
+
+
+    <div id="test2" class="map-widget"></div>
+
+    <!--<div class="map-widget2"></div>-->
+    <!--<script>-->
+        <!--new Vue({-->
+            <!--el: '.map-widget2',-->
+            <!--template: '<map-widget :name="name" :size="size" :placemarks="placemarks"></map-widget>',-->
+            <!--data() {-->
+                <!--return {-->
+                    <!--name: 'map',-->
+                    <!--size: [400, 400],-->
+                    <!--placemarks: [-->
+                        <!--{-->
+                            <!--coords: ["55.668715", "37.510193"],-->
+                            <!--desk: {-->
+                                <!--name: 'Тест название1',-->
+                                <!--address: 'г. Москва, ул. Московская, д.8',-->
+                                <!--text: 'Текстовое описание',-->
+                                <!--phone: '8 900 555 35 35',-->
+                                <!--site: 'www.test.ru'-->
+                            <!--},-->
+                        <!--},-->
+                        <!--{-->
+                            <!--coords: ["55.628373", "39.469054"],-->
+                            <!--desk: {-->
+                                <!--name: 'Тест название2',-->
+                                <!--address: 'г. Москва, ул. Московская, д.248',-->
+                                <!--text: 'Текстовое описание2',-->
+                                <!--phone: '8 900 555 35 36',-->
+                                <!--site: 'www.test2.ru'-->
+                            <!--},-->
+                        <!--}-->
+                    <!--],-->
+                <!--}-->
+            <!--}-->
+        <!--});-->
+    <!--</script>-->
     <script src="map-widget.js"></script>
 </body>
 </html>
